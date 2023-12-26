@@ -1,0 +1,18 @@
+#search:hover {
+    animation-name: search;
+    animation-duration: 2s;
+
+}
+@keyframes search {
+    from {background-color: orange; width: 60px;}
+    to {background-color:black; color: orange; width: 100px;}
+}
+#searchbar:hover {
+    animation-name: searchbar;
+    animation-duration: 2s;
+
+}
+@keyframes searchbar {
+    from {background-color: rgb(255, 255, 255); font-size: 20px;}
+    to {background-color:rgb(255, 255, 255); color: rgb(0, 94, 255); width: 60px;font-size: 25px;}
+}
